@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <script type="text/javascript" src="quiz.js"></script>
+    <body background="images/new background image.JPG"></body>
+</head>
+
+<p class="locationmessage" style="border:1px; border-style:solid; border-color:blanchedalmond; padding-top: 20px; 
+padding-bottom: 20px; padding-right: 0px; padding-left: 30px; width: 500px;">
+    Congratulation on finding the full coordinates. <br>  
+    Now you must find the name of the location.<br> 
+    Good luck.<br><br>
+    Completed Coordinates: <br>34°08'52.5"N 112°08'27.5"W <br> <br>
+    
+</p>
+
+<map class="map2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004054.827123245!2d-104.65494080921862!3d37.275740950577685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2suk!4v1619262515886!5m2!1sen!2suk" 
+width="800" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</map>
+
+
+<div>
+    <input id="answer7" type="text" placeholder="Lowercase letter" class="answervol7"/> <button onclick="submit7()" class="submitvol7">Confirm</button>
+    <p class="message7" id="message7"></p>
+</div>
+
+<script>
+    function submit7 () {
+var text001;
+var answers = answer7.value;
+if (answers == "sunset point rest stop") {
+    text001= "well done Fugative! you have found the final location";
+    document.getElementById("message7").innerHTML = text001;
+
+
+
+} else {
+    text001 = "Wrong answer, try again";
+    document.getElementById("message7").innerHTML = text001;
+    
+}
+
+} 
+</script>
+

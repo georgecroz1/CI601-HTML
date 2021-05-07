@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer scr=""></script>
+</head>
+<div class="pagewrap3">
+<header>
+    <h1>Phishing emails</h1>
+</header>
+<body background="images/new background image.JPG">
+
+
+        <p class="two">Unknown: <br>
+            "Below are 6 email's which contain 3 phishing emails. 
+            you must correctly chose the 3 phishing emails in order to complete the level. <br>
+            Each email is labelled with one number, use the numbers to create a 3 digit 
+            code eg 123
+             <br> Good Luck"  </p>
+
+</body>
+
+<style>
+    .two {
+        font-family: 'Girassol', cursive;
+    }
+</style>
+
+<a href="emailone.html">
+    <button class="emailone">Email #1</button>
+</a>
+    <a href="emailtwo.html">
+        <button class="emailtwo">Email #2</button>
+    </a>
+    <a href="emailthree.html">
+        <button class="emailthree">Email #3</button>
+    </a>
+    <a href="emailfour.html">
+        <button class="emailfour">Email #4</button>
+    </a>
+    <a href="emailfive.html">
+        <button class="emailfive">Email #5</button>
+    </a>
+    <a href="emailsix.html">
+        <button class="emailsix">Email #6</button>
+    </a>
+
+ <div>
+    <input id="answer" type="text" placeholder="eg123" class="answer"/> <button onclick="submit()" class="submit">Confirm</button>
+    <p class="messageemail1" id="messageemail1"></p>
+</div>
+</div>
+</html>
+
+<script>
+    function submit () {
+var text001;
+var answers = answer.value;
+if (answers == "246") {
+    document.location.href = "correctanswer1.html" ;
+
+} else {
+    text001 = "Wrong answer, try again";
+    document.getElementById("messageemail1").innerHTML = text001;
+    
+}
+
+} 
+</script>
+
+ 
+    

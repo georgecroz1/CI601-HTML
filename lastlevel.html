@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="quiz.js"></script>
+</head>
+<header>
+
+</header>
+<body background="images/new background image.JPG">
+    <p class="missiontext" style="border:1px; border-style:solid; border-color:blanchedalmond; padding-top: 20px; 
+    padding-bottom: 20px; padding-right: 0px; padding-left: 30px; width: 500px;">
+    You are now on the final puzzle, Fugative. <br>
+   To complete this mission, you must complete the quiz below. <br>
+   With every question you complete successfully, you will gain part of the coordinates. <br>
+   Once you have completed the quiz, you must use the coordinates and find the exact location.
+</p>
+<div>
+    <input id="answer7" type="text" placeholder="name of location" class="answervol7"/> <button onclick="submit7()" class="submitvol7">Confirm</button>
+    <p class="message7" id="message7"></p>
+</div>
+
+<script>
+    function submit7 () {
+var text001;
+var answers = answer7.value;
+if (answers == "sunset point rest stop") {
+    text001= "well done Fugative! you have found the final location";
+    document.getElementById("message7").innerHTML = text001;
+
+
+
+} else {
+    text001 = "Wrong answer, try again";
+    document.getElementById("message7").innerHTML = text001;
+    
+}
+
+} 
+
+</script>
+
+<map class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004054.827123245!2d-104.65494080921862!3d37.275740950577685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2suk!4v1619262515886!5m2!1sen!2suk" 
+    width="800" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</map>
+        
+<a href="journal.html">
+    <button class="Journal">Journal</button>
+    </a>
+
+    <style>
+        .quizquestions {
+            font-family: 'Girassol', cursive;
+        }
+    </style>
+    <style>
+        .missiontext {
+                font-family: 'Girassol', cursive;
+        }
+    </style>
+    
+
+<div class="quizwrapx">
+
+<p class="quizquestions">1. Type in the correct letter to this question:<br>
+   which two methods help indentify a Phishing email?<br><br>
+   A. Spelling your name wrong & Coloured messages<br>
+   B. Abusive Messages & Big Text<br>
+   C. Asking for personal information & Suspicious links<br>
+   D. Coloured Text & Poor layout
+
+</p>
+<div>
+    <input id="answer" type="text" placeholder="Lowercase letter" class="answervol1"/> <button onclick="submit()" class="submitvol1">Confirm</button>
+    <p class="message" id="message"></p>
+</div>
+
+<script>
+    function submit () {
+var text001;
+var answers = answer.value;
+if (answers == "c") {
+    text001= "Coordinates unlocked: 34<span>&#176;</span>";
+    document.getElementById("message").innerHTML = text001;
+
+
+
+} else {
+    text001 = "Wrong answer, try again";
+    document.getElementById("message").innerHTML = text001;
+    
+}
+
+} 
+</script>
+
+<p class="quizquestions2">2. Type in the correct letter to this question:<br>
+   If you fall for a Phishing email, what should you do to limit the damage<br><br>
+   A. Turn your computer off<br>
+   B. Delete the email <br>
+   C. Change any compromised passwords<br>
+   D. Install Anti Virus software
+</p>
+<div>
+    <input id="answer2" type="text" placeholder="Lowercase letter" class="answervol2"/> <button onclick="submit2()" class="submitvol2">Confirm</button>
+    <p class="message2" id="message2"></p>
+</div>
+
+
+
+<script>
+    function submit2 () {
+var text001;
+var answers = answer2.value;
+if (answers == "c") {
+    text001= "Coordinates unlocked: 11'";
+    document.getElementById("message2").innerHTML = text001;
+
+
+
+} else {
+    text001 = "Wrong answer, try again";
+    document.getElementById("message2").innerHTML = text001;
+    
+}
+
+} 
+</script>
+
+<p class="quizquestions3">3. You get a message from your support team in your work place,
+    saying to click the link and rest your password. You should:<br>
+   If you fall for a Phishing email, what should you do to limit the damage<br><br>
+   A. Reply to the message and say No<br>
+   B. Call your support team from a number you know is correct and double check they sent the message  <br>
+   C. Click the link to see if it is a legimiate email <br>
+   D. Delete the message
+
+<div>
+    <input id="answer3" type="text3" placeholder="Lowercase letter" class="answervol3"/> <button onclick="submit3()" class="submitvol3">Confirm</button>
+    <p class="message3" id="message3"></p>
+</div>
+
+<script>
+    function submit3 () {
+var text001;
+var answers = answer3.value;
+if (answers == "b") {
+    text001= "Coordinates unlocked: 06.2''N";
+    document.getElementById("message3").innerHTML = text001;
+
+
+
+} else {
+    text001 = "Wrong answer, try again";
+    document.getElementById("message3").innerHTML = text001;
+    
+}
+
+} 
+</script>
+
+
+<p class="quizquestions4">4. Select a method to keep your password strong<br><br>
+    
+    A. Different characters and numbers<br>
+    B. Long length password and no numbers <br>
+    C. Only Speical Characters<br>
+    D. Letter and numbers only
+    
+ </p>
+ <div>
+     <input id="answer4" type="text" placeholder="Lowercase letter" class="answervol4"/> <button onclick="submit4()" class="submitvol4">Confirm</button>
+     <p class="message4" id="message4"></p>
+ </div>
+ 
+ 
+ 
+ <script>
+     function submit4 () {
+ var text001;
+ var answers = answer4.value;
+ if (answers == "a") {
+     text001= "Coordinates unlocked: 112<span>&#176;</span>";
+     document.getElementById("message4").innerHTML = text001;
+ 
+ 
+ 
+ } else {
+     text001 = "Wrong answer, try again";
+     document.getElementById("message4").innerHTML = text001;
+     
+ }
+ 
+ } 
+ </script>
+
+
+<p class="quizquestions5">5. I have a really strong password so i can use it for multiple accounts. True or False<br><br>
+    
+    A. True<br>
+    B. False <br>
+    
+ </p>
+ <div>
+     <input id="answer5" type="text" placeholder="Lowercase letters" class="answervol5"/> <button onclick="submit5()" class="submitvol5">Confirm</button>
+     <p class="message5" id="message5"></p>
+ </div>
+ 
+ 
+ 
+ <script>
+     function submit5 () {
+ var text001;
+ var answers = answer5.value;
+ if (answers == "b") {
+     text001= "Coordinates unlocked: 08'";
+     document.getElementById("message5").innerHTML = text001;
+ 
+ 
+ 
+ } else {
+     text001 = "Wrong answer, try again";
+     document.getElementById("message5").innerHTML = text001;
+     
+ }
+ 
+ } 
+ </script>
+
+<p class="quizquestions6">Select the letter of the weakest password<br><br>
+    
+    A. iloveyou24<br>
+    B. ieatkelp34 <br>
+    C. Equally weak
+    
+ </p>
+ <div>
+     <input id="answer6" type="text" placeholder="Lowercase letters" class="answervol6"/> <button onclick="submit6()" class="submitvol6">Confirm</button>
+     <p class="message6" id="message6"></p>
+ </div>
+ 
+ 
+ 
+ <script>
+     function submit6 () {
+ var text001;
+ var answers = answer6.value;
+ if (answers == "b") {
+     text001= "Coordinates unlocked: 04.6''W";
+     document.getElementById("message6").innerHTML = text001;
+ 
+ 
+ 
+ } else {
+     text001 = "Wrong answer, try again";
+     document.getElementById("message6").innerHTML = text001;
+     
+ }
+ 
+ } 
+ </script>
+ </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer scr=""></script>
+</head>
+<header>
+    <h1>Password Cracking</h1>
+</header>
+<body background="images/new background image.JPG"></body>
+
+    <p class="correctanswertext2">
+        Welcome to the next level Fugative, <br>
+        in this task you will be trying to crack this employees <br> password so we can get into their system. <br>
+        We have supplied you with 3 images which are taken from her <br>social media, which we believe will lead us to the 
+        password. look carefully <br> at the images below and use any detail you can to complete the question.<br>
+        Good luck.
+    </p>
+
+    <div>
+        <img src="images/Picture1.jpg" class="picture1">
+        <img src="images/Picture2.jpg" class="picture2">
+        
+        <img src="images/Picture4.jpg" class="picture4">
+    </div>
+
+    <div>
+        <input id="answer" type="text" placeholder="Xxxxxx1234" class="answer2"/> <button onclick="submit()" class="submit2">Confirm</button>
+        <p id="message"></p>
+    </div> 
+    <script>
+        function submit () {
+    var text001;
+    var answers = answer.value;
+    if (answers == "Bettany1961") {
+        document.location.href = "correctanswer2.html";
+    
+    
+    } else {
+        text001 = "Wrong answer, try again";
+        document.getElementById("message").innerHTML = text001;
+        
+    }
+    
+    } 
+    </script>
+
+</body> 
+
+
+

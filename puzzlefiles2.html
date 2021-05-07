@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <script defer scr=""></script>
+</head>
+<header>
+<h1>'Company X' System Files</h1>
+</header>
+<body background="images/new background image.JPG">
+
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                        <li><a href="puzzlefiles2.html">System Files</a></li>
+                        <li><a href="documentsfiles2.html">Documents</a></li>
+                        <li><a href="imagesnew.html">images</a></li>
+                        <li><a href="text.html">Text</a></li>
+                        <li><a href="passwordpage.html">Classified</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="btnGroup">
+        <a href="documentsfiles2.html">
+        <button>Documents</button>
+        </a>
+        <a href="imagesnew.html">
+        <button>Images</button>
+        </a>
+        <a href="text.html">
+        <button>Text</button>
+        </a>
+        <a href="passwordpage.html">
+        <button>Classified</button>
+        </a>
+
+<P class="puzzlefilestext" style="border:1px; border-style:solid; border-color:blanchedalmond; padding-top: 20px; 
+padding-bottom: 20px; padding-right: 30px; padding-left: 30px; width: 700px;"> 
+           Unkown: <br>
+           "Congratulations fugative, you have completed the Third level. <br>
+           Now you have found what bank got hijacked, <br>
+           You must now find the route the driver was taking. <br>
+           We suggest looking in the classified documents."
+  </P>
+
+</div>
+<div>
+    <input id="answer" type="text" placeholder="Answer here" class="answer9"/> <button onclick="submit()" class="submit7">Confirm</button>
+    <p id="message"></p>
+</div> 
+<script>
+    function submit () {
+var text001;
+var answers = answer.value;
+if (answers == "white hart road") {
+    document.location.href = "correctanswer3.html";
+
+
+} else {
+    text001 = "Wrong answer, try again";
+    document.getElementById("message").innerHTML = text001;
+    
+}
+
+} 
+</script>
+ 
